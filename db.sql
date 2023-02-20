@@ -92,10 +92,6 @@ create table cita(
     foreign key  (id_diagnostico) references cabecera_diagnostico(id)
 );
 
-create table empleado(
-	id int auto_increment not null primary key
-);
-
 create table recepcion (
 	id int auto_increment not null primary key,
     foto varchar(50) not null,
@@ -260,3 +256,15 @@ create table encuesta(
     foreign key (id_ot) references ot_cabecera(id),
     foreign key (id_factura) references factura_cabecera(id)
 );
+
+create table empleado(
+    id int auto_increment not null primary key,
+    dni varchar(50) not null, 
+    nombre varchar(50) not null,
+    apellidos varchar(50) not null,
+    direccion varchar(50) not null,
+    email varchar(50) not null,
+    puesto varchar(50) not null,
+    departamento varchar(50) not null
+);
+
