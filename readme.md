@@ -6,6 +6,6 @@ Carworkshop, en el que se lleven a cabo las operaciones habituales de
 mantenimiento de un vehículo y la apuesta por la priorización de la calidad como forma de optimizar los costes
 y el servicio al cliente.
 
-Made with love from Ruiseñor Course :heart::heart::heart:
+Made with love from Ruiseñor Course & Aaroneta Team :heart::heart::heart:
 
 HELP UKRAINE: https://donate.wck.org/give/417669/#!/donation/checkout 
