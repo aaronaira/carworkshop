@@ -1,58 +1,64 @@
 package carworkshop.clases;
 
-public class Cliente {
+public class Cliente extends Persona{
+
+    private String dni;
     private String nombre;
     private String apellidos;
-    private String dni;
     private String direccion;
     private String email;
 
     public Cliente(String nombre, String apellidos, String dni, String direccion, String email) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.dni = dni;
-        this.direccion = direccion;
-        this.email = email;
-    }
+        super(dni, nombre, apellidos, direccion, email);
 
-    public String getNombre() {
-        return nombre;
     }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getApellidos() {
-        return apellidos;
-    }
-
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
+    @Override
     public String getDni() {
-        return dni;
+        return null;
     }
 
-    public void setDni(String dni) {
-        this.dni = dni;
+    @Override
+    public void setDni() {
+
     }
 
+    @Override
+    public String getNombre() {
+        return null;
+    }
+
+    @Override
+    public void setNombre() {
+
+    }
+
+    @Override
+    public String getApellidos() {
+        return null;
+    }
+
+    @Override
+    public void setApellidos() {
+
+    }
+
+    @Override
     public String getDireccion() {
-        return direccion;
+        return null;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    @Override
+    public void setDireccion() {
+
     }
 
+    @Override
     public String getEmail() {
-        return email;
+        return null;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    @Override
+    public void setEmail() {
 
+    }
 }

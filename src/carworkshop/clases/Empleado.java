@@ -1,62 +1,13 @@
 package carworkshop.clases;
 
-public class Empleado {
+public class Empleado extends Persona {
 
-    private String dni;
-    private String nombre;
-    private String apellidos;
-    private String direccion;
-    private String email;
     private String puesto;
     private String departamento;
     public Empleado(String dni, String nombre, String apellidos, String direccion, String email, String puesto, String departamento) {
-        this.dni = dni;
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.direccion = direccion;
-        this.email = email;
+        super(dni, nombre, apellidos, direccion, email);
         this.puesto = puesto;
         this.departamento = departamento;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getApellidos() {
-        return apellidos;
-    }
-
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getPuesto() {
@@ -74,5 +25,55 @@ public class Empleado {
     public void setDepartamento(String departamento) {
         this.departamento = departamento;
     }
-}
 
+    @Override
+    public String getDni() {
+        return null;
+    }
+
+    @Override
+    public void setDni() {
+
+    }
+
+    @Override
+    public String getNombre() {
+        return null;
+    }
+
+    @Override
+    public void setNombre() {
+
+    }
+
+    @Override
+    public String getApellidos() {
+        return null;
+    }
+
+    @Override
+    public void setApellidos() {
+
+    }
+
+    @Override
+    public String getDireccion() {
+        return null;
+    }
+
+    @Override
+    public void setDireccion() {
+
+    }
+
+    @Override
+    public String getEmail() {
+        return null;
+    }
+
+    @Override
+    public void setEmail() {
+
+    }
+
+}
