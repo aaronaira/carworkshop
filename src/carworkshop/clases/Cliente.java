@@ -1,7 +1,5 @@
 package carworkshop.clases;
 
-import java.util.StringJoiner;
-
 public class Cliente {
     private String nombre;
     private String apellidos;
