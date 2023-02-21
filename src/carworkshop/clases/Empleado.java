@@ -1,18 +1,30 @@
 package carworkshop.clases;
 
-public class Cliente {
+public class Empleado {
+
+    private String dni;
     private String nombre;
     private String apellidos;
-    private String dni;
     private String direccion;
     private String email;
-
-    public Cliente(String nombre, String apellidos, String dni, String direccion, String email) {
+    private String puesto;
+    private String departamento;
+    public Empleado(String dni, String nombre, String apellidos, String direccion, String email, String puesto, String departamento) {
+        this.dni = dni;
         this.nombre = nombre;
         this.apellidos = apellidos;
-        this.dni = dni;
         this.direccion = direccion;
         this.email = email;
+        this.puesto = puesto;
+        this.departamento = departamento;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
     public String getNombre() {
@@ -31,14 +43,6 @@ public class Cliente {
         this.apellidos = apellidos;
     }
 
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
     public String getDireccion() {
         return direccion;
     }
@@ -55,4 +59,20 @@ public class Cliente {
         this.email = email;
     }
 
+    public String getPuesto() {
+        return puesto;
+    }
+
+    public void setPuesto(String puesto) {
+        this.puesto = puesto;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
 }
+

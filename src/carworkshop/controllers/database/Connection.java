@@ -2,12 +2,14 @@ package carworkshop.controllers.database;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
-
-import java.sql.*;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Connection {
 
     Statement st;
+
     public Connection() throws SQLException {
         Dotenv dotenv = Dotenv.configure().load();
         java.sql.Connection conn = DriverManager.getConnection(dotenv.get("DB_URL") + dotenv.get("DB_NAME"), dotenv.get("DB_USER"), dotenv.get("DB_PASSWORD"));
