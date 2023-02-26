@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -12,8 +12,8 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="6c7d57a3-2be4-4f89-91f3-090116d3449d">
-      <console name="Connection" type="STANDARD" schema="mysql" session="Main" />
+    <connection id="21b620f0-cd8f-45b5-b7c8-722c855ff5b9">
+      <console name="zenlaboratory" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -26,7 +26,15 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/db.sql" connection-id="6c7d57a3-2be4-4f89-91f3-090116d3449d" session-id="MAIN" current-schema="carworkshop" />
+    <mapping file-url="file://$PROJECT_DIR$/db.sql" connection-id="21b620f0-cd8f-45b5-b7c8-722c855ff5b9" session-id="MAIN" current-schema="carworkshop" />
+  </component>
+  <component name="DBNavigator.Project.MethodExecutionManager">
+    <method-browser />
+    <execution-history>
+      <group-entries value="true" />
+      <execution-inputs />
+    </execution-history>
+    <argument-values-cache />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -39,9 +47,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="6c7d57a3-2be4-4f89-91f3-090116d3449d" active="true" signed="true">
+      <connection id="21b620f0-cd8f-45b5-b7c8-722c855ff5b9" active="true" signed="true">
         <database>
-          <name value="Connection" />
+          <name value="zenlaboratory" />
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
@@ -55,7 +63,7 @@
           <database value="mysql" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="T21hcmFmdmc3NA==" />
+          <deprecated-pwd value="Kk9tYXJhZnZnNzQj" />
         </database>
         <properties>
           <auto-commit value="false" />
